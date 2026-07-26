@@ -1,0 +1,9 @@
+{
+  "name": "fridgegenie",
+  "version": "1.0.0",
+  "description": "FridgeGenie - AI-powered recipe suggestions from ingredients you already have.",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}

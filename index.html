@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FridgeGenie — Cook With What You Have</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🧞 FridgeGenie</h1>
+      <p class="tagline">Stop wasting food. Stop wasting money. Just tell me what's in your fridge.</p>
+    </header>
+
+    <main>
+      <form id="recipe-form">
+        <label for="ingredients">What ingredients do you have? (comma-separated)</label>
+        <textarea id="ingredients" placeholder="e.g. eggs, tomatoes, onion, leftover rice, cheese" required></textarea>
+
+        <div class="row">
+          <div class="field">
+            <label for="diet">Dietary preference</label>
+            <select id="diet">
+              <option value="no restrictions">No restrictions</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="vegan">Vegan</option>
+              <option value="halal">Halal</option>
+              <option value="high-protein">High-protein</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="time">Time available</label>
+            <select id="time">
+              <option value="under 15 minutes">Under 15 minutes</option>
+              <option value="under 30 minutes" selected>Under 30 minutes</option>
+              <option value="under 1 hour">Under 1 hour</option>
+              <option value="no rush">No rush</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" id="submit-btn">✨ Get Recipe Ideas</button>
+      </form>
+
+      <div id="status" class="status hidden"></div>
+      <div id="results" class="results hidden"></div>
+    </main>
+
+    <footer>
+      <p>Built with ❤️ to fight food waste. Powered by Google Gemini.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
