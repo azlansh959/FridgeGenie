@@ -72,17 +72,13 @@ The app forces structured JSON output (via Gemini's `responseMimeType: "applicat
 - **AI assistance during build:** Claude (Anthropic) was used to help scaffold and debug the code
 
 ## 📸 Screenshots
-**[TODO: add at least 3 screenshots here after deploying, e.g.]**
-
-1. `screenshots/home-screen.png` — the empty form on first load
-2. `screenshots/results.png` — recipe cards after submitting ingredients
-3. `screenshots/mobile-view.png` — the app on a phone screen
-
-```md
-![Home screen](screenshots/home-screen.png)
-![Results](screenshots/results.png)
-![Mobile view](screenshots/mobile-view.png)
-```
+![Homepage](Homepage.png)
+![Result page 1](Result%20page%201.png)
+![Result page 2](Result%20page%202.png)
+![Result page 3](Result%20page%203.png)
+![Result page 4](Result%20page%204.png)
+![Mobile screenshot 1](Mobile%20ss%201.jpg)
+![Mobile screenshot 2](Mobile%20ss%202.jpg)
 
 ---
 
