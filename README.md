@@ -8,10 +8,10 @@ Students and anyone living on a tight budget end up with half-used bags of veget
 ---
 
 ## 🔗 Live App
-**[TODO: paste your live Vercel URL here, e.g. https://fridgegenie.vercel.app]**
+**[TODO: fridge-genie-vert.vercel.app]**
 
 ## 📦 GitHub Repository
-**[TODO: paste your public GitHub repo URL here]**
+**[TODO: https://github.com/azlansh959/FridgeGenie]**
 
 ---
 
@@ -28,7 +28,7 @@ Students and anyone living on a tight budget end up with half-used bags of veget
 - Clear error handling if the AI or network fails (no silent breakage)
 
 ## 🤖 The AI Feature
-The core of FridgeGenie is a single AI-powered endpoint (`/api/recipe`) that takes the user's ingredients, dietary preference, and time limit, and returns structured recipe data. It's powered by **Google Gemini** (`gemini-2.0-flash`), called from a Vercel serverless function so the API key never touches the browser.
+The core of FridgeGenie is a single AI-powered endpoint (`/api/recipe`) that takes the user's ingredients, dietary preference, and time limit, and returns structured recipe data. It's powered by **Google Gemini** (`gemini-3.5-flash-lite`), called from a Vercel serverless function so the API key never touches the browser.
 
 **System prompt used (verbatim, from `api/recipe.js`):**
 
@@ -66,7 +66,7 @@ The app forces structured JSON output (via Gemini's `responseMimeType: "applicat
 ## 🛠 Tools, Services, and Models Used
 - **Frontend:** Plain HTML, CSS, and vanilla JavaScript (no framework, no build step)
 - **Backend:** A single Vercel serverless function (`api/recipe.js`, Node.js runtime)
-- **AI model:** Google Gemini (`gemini-2.0-flash`) via the Gemini API
+- **AI model:** Google Gemini (`gemini-3.5-flash-lite`) via the Gemini API
 - **Hosting/Deployment:** Vercel (free tier)
 - **Version control:** Git + GitHub (public repo)
 - **AI assistance during build:** Claude (Anthropic) was used to help scaffold and debug the code
