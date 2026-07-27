@@ -8,10 +8,10 @@ Students and anyone living on a tight budget end up with half-used bags of veget
 ---
 
 ## 🔗 Live App
-**[TODO: fridge-genie-vert.vercel.app]**
+****[fridge-genie-vert.vercel.app](https://fridge-genie-vert.vercel.app)****
 
 ## 📦 GitHub Repository
-**[TODO: https://github.com/azlansh959/FridgeGenie]**
+****[https://github.com/azlansh959/FridgeGenie](https://github.com/azlansh959/FridgeGenie)****
 
 ---
 
